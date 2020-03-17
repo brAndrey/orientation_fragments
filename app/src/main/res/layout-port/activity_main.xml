@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<Button
+    android:id="@+id/buttonActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/buttonActivityStr"/>
+
+    <fragment
+        android:id="@+id/fragmenrRed"
+        class="com.example.orientation_fragments.RedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <fragment
+        android:id="@+id/fragmenrGreen"
+        class="com.example.orientation_fragments.GreenFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

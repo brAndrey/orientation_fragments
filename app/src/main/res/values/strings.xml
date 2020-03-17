@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">orientation_fragments</string>
+    <string name="buttonActivityStr">Кнопка активности</string>
+</resources>
